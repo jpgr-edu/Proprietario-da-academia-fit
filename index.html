@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFit Academia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>IFit Academia</h1>
+        <p>Saúde, bem-estar e performance para você.</p>
+    </header>
+
+    <section class="planos">
+        <h2>Planos e Pacotes</h2>
+
+        <div class="card">
+            <h3>Plano Básico</h3>
+            <p>Acesso total à academia</p>
+            <p class="preco">R$ 79,90 / mês</p>
+        </div>
+
+        <div class="card">
+            <h3>Plano Plus</h3>
+            <p>Aulas coletivas + musculação</p>
+            <p class="preco">R$ 109,90 / mês</p>
+        </div>
+
+        <div class="card">
+            <h3>Plano Premium</h3>
+            <p>Musculação + aulas + personal</p>
+            <p class="preco">R$ 159,90 / mês</p>
+        </div>
+    </section>
+
+    <section class="horarios">
+        <h2>Horários de Funcionamento</h2>
+        <p>Segunda a Sexta: <strong>06h às 22h</strong></p>
+        <p>Sábados: <strong>08h às 18h</strong></p>
+        <p>Domingos e Feriados: <strong>Fechado</strong></p>
+    </section>
+
+    <section class="local">
+        <h2>Localização</h2>
+        <p>Rua Principal, 123 - Centro</p>
+        <p>Cidade: Seu Município - UF</p>
+    </section>
+
+    <section class="imc">
+        <h2>Calculadora de IMC</h2>
+
+        <label>Peso (kg):</label>
+        <input type="number" id="peso" placeholder="Ex: 70">
+
+        <label>Altura (m):</label>
+        <input type="number" id="altura" placeholder="Ex: 1.75" step="0.01">
+
+        <button onclick="calcularIMC()">Calcular IMC</button>
+
+        <h3 id="resultado"></h3>
+    </section>
+
+    <footer>
+        <p>IFit Academia © 2025 - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+}
+
+header {
+    background: #1a73e8;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #1a73e8;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.planos, .horarios, .local, .imc {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.card .preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a73e8;
+}
+
+.imc input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #1a73e8;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #155bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1a73e8;
+    color: white;
+    margin-top: 40px;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 22px;
+}
